@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap');
+
+#outer {
+    position: absolute;
+    background: #222222;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    z-index: 1;
+    color: whitesmoke;
+    margin-top: 10%;
+    position: relative;
+    background-color: transparent;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social a {
+    color: whitesmoke;
+    padding: 20px 10px 10px;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.social a:hover {
+    color: #222222;
+    background: whitesmoke;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
